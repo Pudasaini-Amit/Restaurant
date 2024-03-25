@@ -1,0 +1,50 @@
+#about{
+   padding: 30px 5%;
+}   
+#about h1{
+   font-size: 50px;
+	text-shadow:1.5px 1.5px rgb(243, 225, 225);
+   font-family: 'Forte', cursive;
+}
+#card_top{
+   
+ 
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+}
+#card_top .right,
+#card_top .left{
+   width: 550px;
+   min-height: 400px;
+   text-align: center;
+   margin:15px;
+   background-color: #ced9d1;
+}
+#about #card_top img{
+   height: 100%;
+   width: 100%;
+   
+}
+#card_bottom {
+   background: url(About_background.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   justify-content: center;
+   padding: 10%;
+
+}
+p{
+   font-size: 20px;
+	padding: 20%, 20px;
+   font-family: cursive ;
+   text-shadow:1px 1px rgb(241, 238, 238);
+}
+#card_bottom p{
+   color: rgb(199, 185, 154);
+   font-size: 20px;
+	padding: 20%, 20px;
+   font-family: cursive ;
+   text-shadow:1px 1px  rgb(10, 10, 10);
+
+}

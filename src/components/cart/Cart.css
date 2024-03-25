@@ -1,0 +1,7 @@
+#cart {
+   padding-top: 12.5px;
+}
+#cart img{
+   width: 3rem;
+   cursor: pointer;
+}

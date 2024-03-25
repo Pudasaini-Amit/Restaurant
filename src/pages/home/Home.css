@@ -1,0 +1,26 @@
+#home{
+	padding-top: 75px;
+	background: url(Home_background.jpg) center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+  
+}
+.homecontent{
+   text-align:center;
+   padding: 175px 0%;
+   color: white;
+
+}
+#home h1{
+	font-size: 50px;
+	text-shadow:1.5px 1.5px black;
+   font-family: 'Forte', cursive;
+}
+#home h4{
+	font-size: 20px;
+	padding: 20%, 20px;
+   font-family: cursive ;
+   text-shadow:1px 1px black;
+	
+}

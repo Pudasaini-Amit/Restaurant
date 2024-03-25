@@ -1,0 +1,40 @@
+#services .greet{
+   background: url(background.jpg) center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color: white;
+}
+#services .ourServices{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #e0e0e0 ;
+}
+#services a{
+   text-decoration: none;
+}
+.greet h1{
+	font-size: 50px;
+	text-shadow:1.5px 1.5px black;
+   font-family: 'Forte', cursive;
+   text-align: center;
+   text-wrap: wrap;
+   padding: 7.5%;
+}
+#services .card{
+   width: 250px;
+	height: 400px;
+	margin:30px;
+   background-color: #272e2d;
+   color: white;
+   box-shadow: 1px 2px 15px rgb(139, 155, 161);
+   border-radius: 10px;
+   line-height: 1;
+   cursor: pointer;
+}
+#bottom{
+   background-color: #e0e0e0 ;
+   padding: 10px 0px 1px 0px;
+   
+}
