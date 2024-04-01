@@ -8,13 +8,18 @@ import Menu from './pages/menu/Menu';
 import About from './pages/about/About';
 import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
-import Cart from './components/cart/Cart';
+// import Cart from './components/cart/Cart';
+
+import { ShopContextProvider } from './context/shop-context';
+import Cart from ".//.//restaurantCart/cart/Cart";
+
 
 
 
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
 
         <BrowserRouter>
           <Navbar/>
@@ -31,8 +36,9 @@ function App() {
           </Routes>
         
         </BrowserRouter>
-
       
+    
+    </ShopContextProvider>
       
       
     

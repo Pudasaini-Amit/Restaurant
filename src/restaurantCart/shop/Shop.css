@@ -1,0 +1,43 @@
+
+.shop img{
+   padding-top:20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+   }
+.shop .products{
+ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.shop .product{
+  
+   width: 250px;
+	min-height: 400px;
+	margin:15px;
+   background-color: rgb(61, 52, 43);
+   color: white;
+   box-shadow: 1px 1px 25px rgb(115, 124, 128);
+   border-radius: 10px;
+   line-height: 1;
+}
+
+.shop .myButton{
+   border-radius: 20px;
+   padding: 0.5em 1em;
+   font-weight: bold;
+   background-color: #0f0f0e;
+   color: white;
+   cursor: pointer;
+}
+.shop .myButton:hover{
+   color: rgb(15, 15, 14);
+   background-color: white;
+   font-weight: 800;
+}
+.shop .myButton:active{
+   background-color: rgb(3, 3, 3);
+   color: rgb(156, 150, 150);
+}

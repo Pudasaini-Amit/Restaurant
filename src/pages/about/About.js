@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/footer/Footer";
 import "./About.css";
 import Grilled_chicken from "./Grilled_chicken.jpg";
-import Cart from "../../components/cart/Cart";
+
 
 function About(){
    return(

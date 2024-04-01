@@ -7,6 +7,7 @@ import coffee from "./coffee.webp";
 import pastry from "./pastry.jpg";
 import milkshake from "./milkshake.webp";
 import icecream from "./icecream.webp";
+import { Shop } from "../../restaurantCart/shop/Shop";
 
 
 function Menu(){
@@ -17,7 +18,7 @@ function Menu(){
                <h1>WELCOME</h1>
                <h1>Explore our culinary delights and discover a world of flavors awaiting you</h1><br/><br/>
             </div>
-            <div className="dish">
+            {/* <div className="dish">
                <div className="card">
                   <img className="img" src={fruitsalad} alt="Image"/>
                   <div className="content">
@@ -102,7 +103,8 @@ function Menu(){
                </div>
                
 
-            </div>
+            </div> */}
+            <Shop/>
          </div>
       <Footer/>
       </>
