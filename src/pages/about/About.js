@@ -10,22 +10,24 @@ function About(){
       <div id="about">
          <div id="card_top">
             <div className="right">
-               <h1>Our history</h1>
+               <h1 style={{color:"black", textShadow:"1.5px 1.5px white"}}>Our history</h1>
                <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat. Duis aute irure dolor in reprehenderit in 	cillum dolore eu fugiat nulla pariatur
                </p>
-            </div> 
+            </div>  
             <div className="left">
                <img className="img1" src={Grilled_chicken} alt='Image'/>
             </div>
          </div>
          <div id="card_bottom">
-            <h1>Why Grill House?</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-               consequat. Duis aute irure dolor in reprehenderit in 	cillum dolore eu fugiat nulla pariatur</p>
+            <div className="card_content">
+               <h1>Why Grill House?</h1>
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in 	cillum dolore eu fugiat nulla pariatur</p>
+            </div>
          </div>
       </div>
       <Footer/>

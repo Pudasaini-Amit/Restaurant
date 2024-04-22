@@ -3,8 +3,9 @@
    
 }   
 #about h1{
+   color:white;
    font-size: 50px;
-	text-shadow:1.5px 1.5px rgb(243, 225, 225);
+	text-shadow:1.5px 1.5px rgb(0, 0, 0);
    font-family: 'Forte', cursive;
 }
 #card_top{
@@ -33,19 +34,28 @@
    background-attachment: fixed;
    justify-content: center;
    padding: 10%;
+   
 
+}
+#card_bottom .card_content{
+   background: rgba(0, 0, 0, 0.5);
+   min-height: 300px;
+   padding: 5px;
+   
 }
 p{
    font-size: 20px;
 	padding: 20%, 20px;
    font-family: cursive ;
    text-shadow:1px 1px rgb(241, 238, 238);
+   
 }
-#card_bottom p{
-   color: rgb(199, 185, 154);
+#card_bottom .card_content p{
+   color: rgb(255, 255, 255);
    font-size: 20px;
 	padding: 20%, 20px;
    font-family: cursive ;
-   text-shadow:1px 1px  rgb(10, 10, 10);
-
+   text-shadow:1px 1px  rgb(0, 0, 0);
+   
 }
+

@@ -38,3 +38,13 @@
    padding: 10px 0px 1px 0px;
    
 }
+#services p{
+   text-shadow: none;
+}
+.img{
+   padding-top:20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}

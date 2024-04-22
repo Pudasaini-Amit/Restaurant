@@ -30,7 +30,7 @@ function Footer(){
                         <div className="social">
                               <h3>Follow us</h3>
                               <div className="social-icons">
-                                    <a to="https://www.facebook.com"> <img className="facebook" src={fb} alt='facebook'/> </a>
+                                    <a href="https://www.facebook.com" target="_blank"> <img className="facebook" src={fb} alt='facebook'/> </a>
                                     <a href="https://www.instagram.com" target="_blank"> <img className="instagram" src={insta} alt='instagram'/> </a>
                                     <a href="https://www.twitter.com" target="_blank"> <img className="twitter" src={twitter} alt='twitter'/> </a>
                                     <a href="https://www.tiktok.com" target="_blank"> <img className="tiktok" src={tiktok} alt='tiktok'/> </a>
